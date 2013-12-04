@@ -1,0 +1,4 @@
+SnowBall
+========
+
+SnowBall Stemmer library
