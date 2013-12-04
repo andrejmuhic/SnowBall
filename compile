@@ -1,0 +1,3 @@
+g++ -c *.c
+ar -crs SnowBallStemmer.a *.o
+rm -f *.o
