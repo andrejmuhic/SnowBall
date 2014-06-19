@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F85F4058-688E-4D96-94AD-F0B64CF65CC2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SnowBall</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api.c" />
+    <ClCompile Include="libstemmer.c" />
+    <ClCompile Include="stem_ISO_8859_1_danish.c" />
+    <ClCompile Include="stem_ISO_8859_1_dutch.c" />
+    <ClCompile Include="stem_ISO_8859_1_english.c" />
+    <ClCompile Include="stem_ISO_8859_1_finnish.c" />
+    <ClCompile Include="stem_ISO_8859_1_french.c" />
+    <ClCompile Include="stem_ISO_8859_1_german.c" />
+    <ClCompile Include="stem_ISO_8859_1_hungarian.c" />
+    <ClCompile Include="stem_ISO_8859_1_italian.c" />
+    <ClCompile Include="stem_ISO_8859_1_norwegian.c" />
+    <ClCompile Include="stem_ISO_8859_1_porter.c" />
+    <ClCompile Include="stem_ISO_8859_1_portuguese.c" />
+    <ClCompile Include="stem_ISO_8859_1_spanish.c" />
+    <ClCompile Include="stem_ISO_8859_1_swedish.c" />
+    <ClCompile Include="stem_ISO_8859_2_romanian.c" />
+    <ClCompile Include="stem_KOI8_R_russian.c" />
+    <ClCompile Include="stem_UTF_8_danish.c" />
+    <ClCompile Include="stem_UTF_8_dutch.c" />
+    <ClCompile Include="stem_UTF_8_english.c" />
+    <ClCompile Include="stem_UTF_8_finnish.c" />
+    <ClCompile Include="stem_UTF_8_french.c" />
+    <ClCompile Include="stem_UTF_8_german.c" />
+    <ClCompile Include="stem_UTF_8_hungarian.c" />
+    <ClCompile Include="stem_UTF_8_italian.c" />
+    <ClCompile Include="stem_UTF_8_norwegian.c" />
+    <ClCompile Include="stem_UTF_8_porter.c" />
+    <ClCompile Include="stem_UTF_8_portuguese.c" />
+    <ClCompile Include="stem_UTF_8_romanian.c" />
+    <ClCompile Include="stem_UTF_8_russian.c" />
+    <ClCompile Include="stem_UTF_8_spanish.c" />
+    <ClCompile Include="stem_UTF_8_swedish.c" />
+    <ClCompile Include="stem_UTF_8_turkish.c" />
+    <ClCompile Include="utilities.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="libstemmer.h" />
+    <ClInclude Include="modules.h" />
+    <ClInclude Include="modules_utf8.h" />
+    <ClInclude Include="stem_ISO_8859_1_danish.h" />
+    <ClInclude Include="stem_ISO_8859_1_dutch.h" />
+    <ClInclude Include="stem_ISO_8859_1_english.h" />
+    <ClInclude Include="stem_ISO_8859_1_finnish.h" />
+    <ClInclude Include="stem_ISO_8859_1_french.h" />
+    <ClInclude Include="stem_ISO_8859_1_german.h" />
+    <ClInclude Include="stem_ISO_8859_1_hungarian.h" />
+    <ClInclude Include="stem_ISO_8859_1_italian.h" />
+    <ClInclude Include="stem_ISO_8859_1_norwegian.h" />
+    <ClInclude Include="stem_ISO_8859_1_porter.h" />
+    <ClInclude Include="stem_ISO_8859_1_portuguese.h" />
+    <ClInclude Include="stem_ISO_8859_1_spanish.h" />
+    <ClInclude Include="stem_ISO_8859_1_swedish.h" />
+    <ClInclude Include="stem_ISO_8859_2_romanian.h" />
+    <ClInclude Include="stem_KOI8_R_russian.h" />
+    <ClInclude Include="stem_UTF_8_danish.h" />
+    <ClInclude Include="stem_UTF_8_dutch.h" />
+    <ClInclude Include="stem_UTF_8_english.h" />
+    <ClInclude Include="stem_UTF_8_finnish.h" />
+    <ClInclude Include="stem_UTF_8_french.h" />
+    <ClInclude Include="stem_UTF_8_german.h" />
+    <ClInclude Include="stem_UTF_8_hungarian.h" />
+    <ClInclude Include="stem_UTF_8_italian.h" />
+    <ClInclude Include="stem_UTF_8_norwegian.h" />
+    <ClInclude Include="stem_UTF_8_porter.h" />
+    <ClInclude Include="stem_UTF_8_portuguese.h" />
+    <ClInclude Include="stem_UTF_8_romanian.h" />
+    <ClInclude Include="stem_UTF_8_russian.h" />
+    <ClInclude Include="stem_UTF_8_spanish.h" />
+    <ClInclude Include="stem_UTF_8_swedish.h" />
+    <ClInclude Include="stem_UTF_8_turkish.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
