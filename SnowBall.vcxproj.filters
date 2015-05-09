@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libstemmer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_danish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_dutch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_english.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_finnish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_french.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_german.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_hungarian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_italian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_norwegian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_porter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_portuguese.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_spanish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_1_swedish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_ISO_8859_2_romanian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_KOI8_R_russian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_danish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_dutch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_english.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_finnish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_french.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_german.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_hungarian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_italian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_norwegian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_porter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_portuguese.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_romanian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_russian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_spanish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_swedish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stem_UTF_8_turkish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stem_UTF_8_turkish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_swedish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_spanish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_russian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_romanian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_portuguese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_porter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_norwegian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_italian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_hungarian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_german.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_french.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_finnish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_english.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_dutch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_UTF_8_danish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_KOI8_R_russian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_2_romanian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_swedish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_spanish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_portuguese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_porter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_norwegian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_italian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_hungarian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_german.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_french.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_finnish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_english.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_dutch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stem_ISO_8859_1_danish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modules_utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libstemmer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
