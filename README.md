@@ -1,4 +1,4 @@
 SnowBall
 ========
 
-SnowBall Stemmer library
+SnowBall Stemmer library chunked version
